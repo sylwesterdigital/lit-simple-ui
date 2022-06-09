@@ -6,7 +6,7 @@ const webpack = require('webpack')
 /*const { SourceMapDevToolPlugin } = require("webpack");
 */
 module.exports = {
-  mode: 'development',
+  mode: 'production',
   devServer: {
     historyApiFallback: true,
     open: true,
